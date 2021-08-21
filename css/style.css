@@ -97,6 +97,13 @@ li, ul {
 .desc-content{
 
 }
+.type-logo{
+	position: absolute;
+	bottom: 30%;
+	right: 30%;
+	width: 20px;
+	height: 20px;
+}
 .stitle h2 {
 	font-family: "Poppins", sans-serif;
 	font-size: 30px;

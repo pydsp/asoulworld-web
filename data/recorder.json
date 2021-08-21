@@ -1,19 +1,22 @@
 [
   {
-    "name": "AS整活录播bot",
-    "icon": "a.jpg",
-    "desc": "主要收录A-SOUL直播的录播",
-    "link": "https://space.bilibili.com/2075842775"
+    "name": "肥恐龙523",
+    "icon": "1.png",
+    "type": 2,
+    "desc": "收录A-SOUL直播中的翻唱歌曲",
+    "link": "https://music.163.com/#/user/home?id=315928904"
   },
   {
     "name": "贾布加布",
     "icon": "j.jpg",
+    "type": 1,
     "desc": "主要收录A-SOUL直播的录播以及部分节目的切片",
     "link": "https://space.bilibili.com/393396916"
   },
   {
     "name": "很难不suki",
     "icon": "h.jpg",
+    "type": 1,
     "desc": "主要收录A-SOUL在抖音平台上发布的小视频",
     "link": "https://space.bilibili.com/511750000"
   }

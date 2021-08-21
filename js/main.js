@@ -28,8 +28,7 @@ $(window).on('load', function() {
 		});
 		return false;
 	});
-	let web = "<div class=\"col-md-3 col-sm-6 wow fadeInUp\"\n" +
-		"                     data-wow-delay=\"0.2s\">\n" +
+	let web = "<div class=\"col-md-3 col-sm-6 wow fadeInUp\" data-wow-delay=\"0.2s\">\n" +
 		"                    <a href=\"\">\n" +
 		"                        <div class=\"service-item\">\n" +
 		"                            <div class=\"serv-icon\">\n" +
@@ -45,14 +44,12 @@ $(window).on('load', function() {
 		"                        </div>\n" +
 		"                    </a>\n" +
 		"                </div>";
-	let recorder="<div class=\"col-md-3 col-sm-6 wow fadeInUp\"\n" +
-		"                     data-wow-delay=\"0.2s\">\n" +
+	let recorder="<div class=\"col-md-3 col-sm-6 wow fadeInUp\" data-wow-delay=\"0.2s\">\n" +
 		"                    <a href=\"https://space.bilibili.com/2075842775\">\n" +
 		"                        <div class=\"service-item\">\n" +
 		"                            <div class=\"serv-icon\">\n" +
-		"                                <img class=\"logo-size\"\n" +
-		"                                     src=\"img/n2/a.jpg\"\n" +
-		"                                     alt=\"\"/>\n" +
+		"                                <img class=\"logo-size\" src=\"img/n2/a.jpg\" alt=\"\"/>\n" +
+		"                                <img class=\"type-logo\" src=\"\" alt=\"\"/>\n" +
 		"                                <p class=\"mt10\"></p>\n" +
 		"                            </div>\n" +
 		"                            <div class=\"serv-content\">\n" +
@@ -69,7 +66,7 @@ $(window).on('load', function() {
 			a.find("img.logo-size").attr("src","img/n1/"+json["icon"])
 			a.find("p.mt10").text(json["name"])
 			a.find("p.desc-content").text(json["desc"])
-			a.attr("data-wow-delay",index*2/10+"s")
+			a.attr("data-wow-delay",index/10+"s")
 			console.log(a.html())
 			$("div#nav1").append(a)
 		})
@@ -81,7 +78,17 @@ $(window).on('load', function() {
 			a.find("img.logo-size").attr("src","img/n2/"+json["icon"])
 			a.find("p.mt10").text(json["name"])
 			a.find("p.desc-content").text(json["desc"])
-			a.attr("data-wow-delay",index*2/10+"s")
+			a.attr("data-wow-delay",index/10+"s")
+			switch (json["type"])
+			{
+				case 1:
+					a.find("img.type-logo").attr("src","img/bilibili.ico")
+					break;
+				case 2:
+					a.find("img.type-logo").attr("src","img/wyy.ico")
+					break;
+				default:
+			}
 			$("div#nav2").append(a)
 		})
 	})
