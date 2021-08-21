@@ -1,0 +1,50 @@
+[
+  {
+    "name": "枝网查重",
+    "icon": "default.png",
+    "desc": "提供评论区小作文查重功能的网站",
+    "link": "https://asoulcnki.asia/"
+  },
+  {
+    "name": "嘉晚饭",
+    "icon": "1.jpg",
+    "desc": "收集CP组合“嘉晚饭”文章、二创、直播切片的网站",
+    "link": "https://jiawanfan.cn"
+  },
+  {
+    "name": "一个魂的二创",
+    "icon": "2.ico",
+    "desc": "二创集合网站，主要用于收集A-SOUL相关的二创",
+    "link": "https://asoul.cloud/"
+  },
+  {
+    "name": "As db-非官方A-Soul直播数据库",
+    "icon": "default.png",
+    "desc": "收集A-SOUL直播的历史数据，包括出场人物、地点、活动、平台等，提供方便快捷的录播精确查找功能",
+    "link": "https://asdb.live/"
+  },
+  {
+    "name": "ASOUL FAN",
+    "icon": "A-Cao.ico",
+    "desc": "给所有的au提供便利，引导新人快速了解A-SOUL",
+    "link": "https://asoulfan.com/"
+  },
+  {
+    "name": "枝江方言词典",
+    "icon": "3.png",
+    "desc": "收录A-SOUL直播及二创产生的衍生梗或偷来的梗，可以进行方便的检索",
+    "link": "https://asoulbook.top/"
+  },
+  {
+    "name": "小作文",
+    "icon": "4.png",
+    "desc": "收集AU小作文的网站",
+    "link": "https://asoul.icu/"
+  },
+  {
+    "name": "A-SOUL Wiki",
+    "icon": "5.png",
+    "desc": "一个魂维基：介绍虚拟偶像团体A-SOUL及其相关信息的百科",
+    "link": "https://asoulwiki.com/"
+  }
+]
