@@ -131,11 +131,11 @@ $(window).on('load', function() {
 		TYPED JS
 	--------------------*/
 	$(".element").typed({
-		strings: ["<a class='ava-color' href='https://space.bilibili.com/672346917/'>AvA</a>",
-			"<a class='bella-color' href='https://space.bilibili.com/672353429/'>Bella</a>",
-			"<a class='carol-color' href='https://space.bilibili.com/351609538/'>Carol</a>",
-			"<a class='diana-color' href='https://space.bilibili.com/672328094/'>Diana</a>",
-			"<a class='eileen-color' href='https://space.bilibili.com/672342685/'>Eileen</a>",],
+		strings: ["<a class='ava-color' target='_blank' href='https://space.bilibili.com/672346917/'>AvA</a>",
+			"<a class='bella-color' target='_blank' href='https://space.bilibili.com/672353429/'>Bella</a>",
+			"<a class='carol-color' target='_blank' href='https://space.bilibili.com/351609538/'>Carol</a>",
+			"<a class='diana-color' target='_blank' href='https://space.bilibili.com/672328094/'>Diana</a>",
+			"<a class='eileen-color' target='_blank' href='https://space.bilibili.com/672342685/'>Eileen</a>",],
 		typeSpeed: 50,
 		loop:true,
 		backDelay: 2000,
