@@ -57,6 +57,7 @@ li, ul {
 /* ====================
   Common Styles
 =======================*/
+
 .pt100 {
 	padding-top: 100px;
 }
@@ -834,7 +835,12 @@ li, ul {
 
 /* Responsive
 ==================================================*/
-
+@media only screen and (min-width: 1200px) {
+	.desktop-limit{
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+}
 /* Tablet desktop :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.about-img {
