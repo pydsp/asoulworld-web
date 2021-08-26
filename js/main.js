@@ -28,14 +28,14 @@ $(window).on('load', function() {
 		});
 		return false;
 	});
-	let web = "<div class=\"col-md-3 col-sm-6 wow fadeInUp\" data-wow-delay=\"0.2s\">\n" +
+	let web = "<div class=\"col-md-2 col-sm-3 col-xs-6 wow fadeInUp\" data-wow-delay=\"0.2s\">\n" +
 		"                    <a href=\"\">\n" +
 		"                        <div class=\"service-item\">\n" +
 		"                            <div class=\"serv-icon\">\n" +
 		"                                <img class=\"logo-size\"\n" +
 		"                                     src=\"img/n1/\"\n" +
 		"                                     alt=\"\"/>\n" +
-		"                                <p class=\"mt10\">\n" +
+		"                                <p class=\"mt10 name-text\">\n" +
 		"                                    test</p>\n" +
 		"                            </div>\n" +
 		"                            <div class=\"serv-content\">\n" +
@@ -44,13 +44,13 @@ $(window).on('load', function() {
 		"                        </div>\n" +
 		"                    </a>\n" +
 		"                </div>";
-	let recorder="<div class=\"col-md-3 col-sm-6 wow fadeInUp\" data-wow-delay=\"0.2s\">\n" +
+	let recorder="<div class=\"col-md-2 col-sm-3 col-xs-6 wow fadeInUp\" data-wow-delay=\"0.2s\">\n" +
 		"                    <a href=\"https://space.bilibili.com/2075842775\">\n" +
 		"                        <div class=\"service-item\">\n" +
 		"                            <div class=\"serv-icon\">\n" +
 		"                                <img class=\"logo-size\" src=\"img/n2/a.jpg\" alt=\"\"/>\n" +
 		"                                <img class=\"type-logo\" src=\"\" alt=\"\"/>\n" +
-		"                                <p class=\"mt10\"></p>\n" +
+		"                                <p class=\"mt10 name-text\"></p>\n" +
 		"                            </div>\n" +
 		"                            <div class=\"serv-content\">\n" +
 		"                                <p class='desc-content'></p>\n" +
