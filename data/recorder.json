@@ -1,5 +1,47 @@
 [
   {
+    "name": "A-SOUL周报",
+    "icon": "4.jpg",
+    "type": 1,
+    "desc": "A-SOUL相关直播切片及二创作品汇总",
+    "link": "https://space.bilibili.com/1185499676"
+  },
+  {
+    "name": "顶碗人周报",
+    "icon": "5.jpg",
+    "type": 1,
+    "desc": "向晚AvA相关直播切片及二创作品汇总",
+    "link": "https://space.bilibili.com/36700106"
+  },
+  {
+    "name": "贝极星周报",
+    "icon": "6.jpg",
+    "type": 1,
+    "desc": "贝拉Bella相关直播切片及二创作品汇总",
+    "link": "https://space.bilibili.com/2114847153"
+  },
+  {
+    "name": "珈乐周报",
+    "icon": "7.jpg",
+    "type": 1,
+    "desc": "珈乐Carol相关直播切片及二创作品汇总",
+    "link": "https://space.bilibili.com/1638018482"
+  },
+  {
+    "name": "嘉心糖周报",
+    "icon": "8.jpg",
+    "type": 1,
+    "desc": "嘉然Diana相关直播切片及二创作品汇总",
+    "link": "https://space.bilibili.com/247210788"
+  },
+  {
+    "name": "奶淇琳周报",
+    "icon": "9.jpg",
+    "type": 1,
+    "desc": "乃琳Eileen相关直播切片及二创作品汇总",
+    "link": "https://space.bilibili.com/37605100"
+  },
+  {
     "name": "肥恐龙523",
     "icon": "1.png",
     "type": 2,
@@ -8,14 +50,14 @@
   },
   {
     "name": "贾布加布",
-    "icon": "j.jpg",
+    "icon": "2.jpg",
     "type": 1,
     "desc": "主要收录A-SOUL直播的录播以及部分节目的切片",
     "link": "https://space.bilibili.com/393396916"
   },
   {
     "name": "很难不suki",
-    "icon": "h.jpg",
+    "icon": "3.jpg",
     "type": 1,
     "desc": "主要收录A-SOUL在抖音平台上发布的小视频",
     "link": "https://space.bilibili.com/511750000"

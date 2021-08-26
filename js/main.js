@@ -29,7 +29,7 @@ $(window).on('load', function() {
 		return false;
 	});
 	let web = "<div class=\"col-md-2 col-sm-3 col-xs-6 wow fadeInUp\" data-wow-delay=\"0.2s\">\n" +
-		"                    <a href=\"\">\n" +
+		"                    <a href=\"\"  target='_blank'>\n" +
 		"                        <div class=\"service-item\">\n" +
 		"                            <div class=\"serv-icon\">\n" +
 		"                                <img class=\"logo-size\"\n" +
@@ -45,10 +45,10 @@ $(window).on('load', function() {
 		"                    </a>\n" +
 		"                </div>";
 	let recorder="<div class=\"col-md-2 col-sm-3 col-xs-6 wow fadeInUp\" data-wow-delay=\"0.2s\">\n" +
-		"                    <a href=\"https://space.bilibili.com/2075842775\">\n" +
+		"                    <a href=\"\" target='_blank'>\n" +
 		"                        <div class=\"service-item\">\n" +
 		"                            <div class=\"serv-icon\">\n" +
-		"                                <img class=\"logo-size\" src=\"img/n2/a.jpg\" alt=\"\"/>\n" +
+		"                                <img class=\"logo-size\" src=\"\" alt=\"\"/>\n" +
 		"                                <img class=\"type-logo\" src=\"\" alt=\"\"/>\n" +
 		"                                <p class=\"mt10 name-text\"></p>\n" +
 		"                            </div>\n" +
