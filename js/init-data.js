@@ -98,6 +98,9 @@ $(window).on('load', function() {
                 case 2:
                     a.find("img.type-logo").remove()
                     a.find("div.serv-icon").addClass("serv-icon-mp")
+                    a.find("a").click(function () {
+                        return false
+                    })
                     break;
                 default:
                     a.find("img.type-logo").remove()
