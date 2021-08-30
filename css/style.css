@@ -528,6 +528,10 @@ li, ul {
 	margin-top: 0;
 	transform: scale(0.5);
 }
+.service-item:hover .serv-icon-mp {
+	top: 80px;
+	transform: scale(1.5);
+}
 .service-item:hover .name-text {
 	opacity: 0;
 	-webkit-transition: all 0.5s;

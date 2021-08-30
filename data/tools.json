@@ -5,5 +5,12 @@
     "type": 1,
     "desc": "vscode鼓励师插件，写代码不再孤单，有A-SOUL与你同在",
     "link": "https://marketplace.visualstudio.com/items?itemName=AS042971.asoul"
+  },
+  {
+    "name": "枝江网络降重",
+    "icon": "2.jpg",
+    "type": 2,
+    "desc": "",
+    "link": "#"
   }
 ]
