@@ -19,7 +19,7 @@ $(window).on('load', function() {
         "                    <a href=\"\" target='_blank'>\n" +
         "                        <div class=\"service-item\">\n" +
         "                            <div class=\"serv-icon\">\n" +
-        "                                <img class=\"logo-size\" src=\"\" alt=\"\"/>\n" +
+        "                                <img class=\"logo-size round\" src=\"\" alt=\"\"/>\n" +
         "                                <img class=\"type-logo\" src=\"\" alt=\"\"/>\n" +
         "                                <p class=\"mt10 name-text\"></p>\n" +
         "                            </div>\n" +
