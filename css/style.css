@@ -275,6 +275,7 @@ li, ul {
 }
 .header-section.sticky {
 	position: fixed;
+	position: -ms-device-fixed;
 	background: #000;
 	padding: 10px 30px;
 }
@@ -966,4 +967,9 @@ li, ul {
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
+}
+div.modal-body p{
+	font-family: "Microsoft YaHei UI", serif;
+	color: #333333;
+	font-size: 16px;
 }
