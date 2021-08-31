@@ -1,6 +1,7 @@
 'use strict';
 
-$(window).on('load', function() { 
+$(window).on('load', function() {
+	$("section.intro-section").css("height",$(document.body).height())
 	/*------------------
 		Preloder
 	--------------------*/

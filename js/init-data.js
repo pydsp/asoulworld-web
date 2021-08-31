@@ -97,7 +97,8 @@ $(window).on('load', function() {
                     break;
                 case 2:
                     a.find("img.type-logo").remove()
-                    a.find("div.serv-icon").addClass("serv-icon-mp")
+                    a.find("div.serv-icon").addClass("serv-icon-fix").removeClass("serv-icon")
+                    a.find("img.logo-size").addClass("logo-scale")
                     a.find("a").click(function () {
                         return false
                     })

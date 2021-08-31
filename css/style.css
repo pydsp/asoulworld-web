@@ -288,7 +288,6 @@ li, ul {
   Intro Section
 =======================*/
 .intro-section {
-	height: 100%;
 	position: relative;
 	overflow: hidden;
 	z-index: 6;
@@ -526,10 +525,6 @@ li, ul {
 	top: 10px;
 	margin-top: 0;
 	transform: scale(0.5);
-}
-.service-item:hover .serv-icon-mp {
-	top: 80px;
-	transform: scale(1.5);
 }
 .service-item:hover .name-text {
 	opacity: 0;
@@ -851,7 +846,6 @@ li, ul {
 	.desktop-limit{
 		margin-left: 40px;
 		margin-right: 40px;
-
 	}
 }
 /* Tablet desktop :768px. */
@@ -898,7 +892,7 @@ li, ul {
 		padding: 10px;
 	}
 	.header-section .menu-list li a:after {
-		left: 0%;
+		left: 0;
 	}
 	.header-section .menu-list li a:hover:after {
 		width: 10px;
@@ -933,4 +927,43 @@ li, ul {
 	.intro-inner .intro-content h2 {
 		font-size: 27px;
 	}
+}
+
+/* 补丁 */
+.service-item .logo-scale {
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.service-item:hover .logo-scale {
+	margin-top: 20px;
+	transform: scale(1.5);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.service-item .serv-icon-fix {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	top: 50%;
+	margin-top: -60px;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.service-item:hover .serv-icon-fix {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	top: 50%;
+	margin-top: -60px;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
 }
