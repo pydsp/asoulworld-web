@@ -341,21 +341,7 @@ li, ul {
 	z-index: 9;
 }
 
-.ava-color,.ava-color:visited,.ava-color:hover,.ava-color:active{
-	color: #9AC8E2;
-}
-.bella-color,.bella-color:visited,.bella-color:hover,.bella:active{
-	color: #DB7D74;
-}
-.carol-color,.carol-color:visited,.carol-color:hover,.carol-color:active{
-	color: #B8A6D9;
-}
-.diana-color,.diana-color:visited,.diana-color:hover,.diana-color:active{
-	color: #E799B0;
-}
-.eileen-color,.eileen-color:visited,.eileen-color:hover,.eileen-color:active{
-	color: #576690;
-}
+
 
 .intro-inner .intro-content h2 {
 	font-family: "Poppins", sans-serif;
@@ -864,6 +850,18 @@ li, ul {
 
 /* Large Mobile :480px. */
 @media only screen and (max-width: 767px) {
+	.intro-inner .intro-content .profile-img {
+		width: 120px;
+		height: 120px;
+		margin: 0 auto;
+		border-radius: 50%;
+		overflow: hidden;
+		border: 5px solid #fff;
+		-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.61);
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.61);
+		position: relative;
+		z-index: 9;
+	}
 	.service-item {
 		margin-bottom: 30px;
 	}
@@ -931,6 +929,22 @@ li, ul {
 }
 
 /* 补丁 */
+.ava-color,.ava-color:visited,.ava-color:hover,.ava-color:active{
+	color: #9AC8E2;
+}
+.bella-color,.bella-color:visited,.bella-color:hover,.bella:active{
+	color: #DB7D74;
+}
+.carol-color,.carol-color:visited,.carol-color:hover,.carol-color:active{
+	color: #B8A6D9;
+}
+.diana-color,.diana-color:visited,.diana-color:hover,.diana-color:active{
+	color: #E799B0;
+}
+.eileen-color,.eileen-color:visited,.eileen-color:hover,.eileen-color:active{
+	color: #576690;
+}
+
 .service-item .logo-scale {
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
