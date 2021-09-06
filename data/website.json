@@ -46,5 +46,11 @@
     "icon": "6.png",
     "desc": "一个魂维基：介绍虚拟偶像团体A-SOUL及其相关信息的百科",
     "link": "https://asoulwiki.com/"
+  },
+  {
+    "name": "捏菇工厂",
+    "icon": "8.jpg",
+    "desc": "asoul元素的捏人小游戏网站",
+    "link": "https://www.neka.cc/composer/10802"
   }
 ]
