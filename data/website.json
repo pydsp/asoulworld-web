@@ -18,10 +18,10 @@
     "link": "https://asoul.cloud/"
   },
   {
-    "name": "As db-非官方A-Soul直播数据库",
-    "icon": "default.png",
+    "name": "Asoul Database",
+    "icon": "9.ico",
     "desc": "收集A-SOUL直播的历史数据，提供关键字查找等功能",
-    "link": "https://asdb.live/"
+    "link": "https://livedb.asoulfan.com/"
   },
   {
     "name": "ASOUL FAN",
