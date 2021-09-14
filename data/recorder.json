@@ -46,7 +46,7 @@
     "icon": "1.png",
     "type": 2,
     "desc": "收录A-SOUL直播中的翻唱歌曲",
-    "link": "https://music.163.com/#/user/home?id=315928904"
+    "link": "https://music.163.com/#/user?id=315928904"
   },
   {
     "name": "贾布加布",
@@ -68,6 +68,13 @@
     "type": 2,
     "desc": "Asoul直播音频与歌曲合集",
     "link": "https://music.163.com/#/djradio?id=964463470"
+  },
+  {
+    "name": "嘉然今天唱什么",
+    "icon": "11.jpg",
+    "type": 2,
+    "desc": "收录嘉然直播中的翻唱歌曲",
+    "link": "https://music.163.com/#/djradio?id=962806408"
   }
 ]
 
