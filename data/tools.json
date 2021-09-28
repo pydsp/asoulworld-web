@@ -12,5 +12,12 @@
     "type": 2,
     "desc": "",
     "link": ""
+  },
+  {
+    "name": "A-SOUL-background",
+    "icon": "3.jpg",
+    "type": 1,
+    "desc": "Asoul默认vscode主题背景，可自定义图片。",
+    "link": "https://marketplace.visualstudio.com/items?itemName=TheSecondAkari.background-withsidebar"
   }
 ]
