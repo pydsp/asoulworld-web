@@ -3,54 +3,63 @@
     "name": "枝网查重",
     "icon": "7.ico",
     "desc": "提供评论区小作文查重功能的网站",
-    "link": "https://asoulcnki.asia/"
+    "link": "https://asoulcnki.asia/",
+    "type": 0
   },
   {
     "name": "嘉晚饭",
     "icon": "1.jpg",
     "desc": "收集CP同人组合“嘉晚饭”文章、二创、直播切片的网站",
-    "link": "https://jiawanfan.cn"
+    "link": "https://jiawanfan.cn",
+    "type": 1
   },
   {
     "name": "一个魂的二创",
     "icon": "2.ico",
     "desc": "二创集合网站，主要用于收集A-SOUL相关的二创",
-    "link": "https://asoul.cloud/"
+    "link": "https://asoul.cloud/",
+    "type": 0
   },
   {
     "name": "Asoul Database",
     "icon": "9.ico",
     "desc": "收集A-SOUL直播的历史数据，提供关键字查找等功能",
-    "link": "https://livedb.asoulfan.com/"
+    "link": "https://livedb.asoulfan.com/",
+    "type": 0
   },
   {
     "name": "ASOUL FAN",
     "icon": "3.ico",
     "desc": "给所有的au提供便利，引导新人快速了解A-SOUL",
-    "link": "https://asoulfan.com/"
+    "link": "https://asoulfan.com/",
+    "type": 0
   },
   {
     "name": "枝江方言词典",
     "icon": "4.png",
     "desc": "收录A-SOUL直播及二创产生的衍生梗或偷来的梗，可以进行方便的检索",
-    "link": "https://asoulbook.top/"
+    "link": "https://asoulbook.top/",
+    "type": 0
   },
   {
     "name": "小作文",
     "icon": "5.png",
     "desc": "收集AU小作文的网站",
-    "link": "https://asoul.icu/"
+    "link": "https://asoul.icu/",
+    "type": 0
   },
   {
     "name": "A-SOUL Wiki",
     "icon": "6.png",
     "desc": "一个魂维基：介绍虚拟偶像团体A-SOUL及其相关信息的百科",
-    "link": "https://asoulwiki.com/"
+    "link": "https://asoulwiki.com/",
+    "type": 0
   },
   {
     "name": "捏菇工厂",
     "icon": "8.jpg",
     "desc": "asoul元素的捏人小游戏网站",
-    "link": "https://www.neka.cc/composer/10802"
+    "link": "https://www.neka.cc/composer/10802",
+    "type": 0
   }
 ]

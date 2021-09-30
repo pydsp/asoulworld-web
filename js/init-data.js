@@ -3,9 +3,8 @@ $(window).on('load', function() {
         "                    <a href=\"\"  target='_blank'>\n" +
         "                        <div class=\"service-item\">\n" +
         "                            <div class=\"serv-icon\">\n" +
-        "                                <img class=\"logo-size\"\n" +
-        "                                     src=\"img/n1/\"\n" +
-        "                                     alt=\"\"/>\n" +
+        "                                <img class=\"logo-size\" src=\"img/n1/\" alt=\"\"/>\n" +
+        "                                <img class=\"type-logo\" src=\"\" alt=\"\"/>\n" +
         "                                <p class=\"mt10 name-text\">\n" +
         "                                    test</p>\n" +
         "                            </div>\n" +
@@ -56,7 +55,15 @@ $(window).on('load', function() {
             a.find("p.name-text").text(json["name"])
             a.find("p.desc-content").text(json["desc"])
             a.attr("data-wow-delay",index/10+"s")
-            console.log(a.html())
+
+            switch (json["type"])
+            {
+                case 1:
+                    a.find("img.type-logo").attr("src",LOGO_PATH+"fanmade.png")
+                    break;
+                default:
+                    a.find("img.type-logo").remove()
+            }
             $("div#nav1").append(a)
         })
     })
