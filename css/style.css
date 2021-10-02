@@ -100,9 +100,7 @@ li, ul {
 .stitle {
 	text-align: center;
 }
-.desc-content{
 
-}
 .type-logo{
 	position: absolute;
 	left: 50%;
@@ -489,8 +487,7 @@ li, ul {
 	transition: all 0.4s;
 }
 .service-item:hover .serv-icon {
-	position: absolute;
-	margin-top: 0;
+	margin-top: -15px;
 	transform: scale(0.5);
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
@@ -540,9 +537,6 @@ li, ul {
 	transition: all 0.5s;
 }
 
-
-
-
 /* ====================
   Portfolio Section
 =======================*/
@@ -559,7 +553,6 @@ li, ul {
 	font-size: 13px;
 	padding: 3px 0;
 	cursor: pointer;
-	border-color: transparent;
 	border: 1px solid transparent;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
@@ -996,4 +989,8 @@ div.modal-body p{
 	font-family: "Microsoft YaHei UI", serif;
 	color: #333333;
 	font-size: 16px;
+}
+
+.desc-content{
+	margin-top: 20px;
 }
