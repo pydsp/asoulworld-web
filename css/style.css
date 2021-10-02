@@ -519,6 +519,9 @@ li, ul {
 	top: 10px;
 	margin-top: 0;
 	transform: scale(0.5);
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 .service-item:hover .name-text {
 	opacity: 0;
