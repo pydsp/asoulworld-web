@@ -487,7 +487,7 @@ li, ul {
 	transition: all 0.4s;
 }
 .service-item:hover .serv-icon {
-	margin-top: -15px;
+	margin-top: -35px;
 	transform: scale(0.5);
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
@@ -992,5 +992,4 @@ div.modal-body p{
 }
 
 .desc-content{
-	margin-top: 20px;
 }
