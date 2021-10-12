@@ -56,7 +56,15 @@ li, ul {
 /* ====================
   Common Styles
 =======================*/
-
+.pt10{
+	padding-top: 10px;
+}
+.pt20{
+	padding-top: 20px;
+}
+.pb10{
+	padding-bottom: 10px;
+}
 .pt100 {
 	padding-top: 100px;
 }
@@ -326,13 +334,7 @@ li, ul {
 	vertical-align: middle;
 	text-align: center;
 }
-.logo-size{
-	width: 80px;
-	height: 80px;
-}
-.round{
-	border-radius: 50%;
-}
+
 .intro-inner .intro-content .profile-img {
 	width: 180px;
 	height: 180px;
@@ -355,12 +357,7 @@ li, ul {
 	color: #fff;
 	margin-top: 25px;
 }
-.intro-content{
-	background: url("../img/website/bg.png") no-repeat center;
-	background-size: cover;
-	margin-top: 0;
-	margin-bottom: 0;
-}
+
 .typed-cursor {
 	opacity: 1;
 	-webkit-animation: blink 0.7s infinite;
@@ -450,7 +447,7 @@ li, ul {
 	width: 35px;
 	height: 35px;
 	padding-top: 11px;
-	letter-spacing: 0px;
+	letter-spacing: 0;
 	background: #fff;
 	text-align: center;
 	border-radius: 50%;
@@ -469,26 +466,21 @@ li, ul {
 .service-item {
 	position: relative;
 	text-align: center;
-	padding: 50px 30px;
+	padding: 20px 30px;
 	margin-bottom: 30px;
 	background: #fff;
 	border-radius: 5px;
 	-webkit-box-shadow: 0 0 30px rgba(64, 64, 64, 0.1);
 	        box-shadow: 0 0 30px rgba(64, 64, 64, 0.1);
 }
+
+
 .service-item .serv-icon {
 	position: absolute;
 	width: 100%;
 	text-align: center;
 	left: 0;
 	margin-top: 0;
-	-webkit-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	transition: all 0.4s;
-}
-.service-item:hover .serv-icon {
-	margin-top: -35px;
-	transform: scale(0.5);
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
@@ -519,7 +511,13 @@ li, ul {
 	font-size: 15px;
 	line-height: 22px;
 }
-
+.service-item:hover .serv-icon {
+	margin-top: -35px;
+	transform: scale(0.5);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
 .service-item:hover .name-text {
 	opacity: 0;
 	-webkit-transition: all 0.5s;
@@ -930,7 +928,19 @@ li, ul {
 	}
 }
 
-/* 补丁 */
+/* 补丁
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*/
 .ava-color,.ava-color:visited,.ava-color:hover,.ava-color:active{
 	color: #9AC8E2;
 }
@@ -990,5 +1000,184 @@ div.modal-body p{
 	font-size: 16px;
 }
 
-.desc-content{
+.intro-content{
+	background: url("../img/website/bg.png") no-repeat center;
+	background-size: cover;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.service-item-main {
+	position: relative;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+	background: #fff;
+	border-radius: 5px;
+	height: 150px;
+}
+.banner-background
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	-webkit-box-shadow: 0 0 20px rgba(64, 64, 64, 0.1);
+	box-shadow: 0 0 20px rgba(64, 64, 64, 0.1);
+}
+.bg-1{
+	background: url("../img/banner/banner-a.webp") no-repeat center;
+	background-size: cover;
+}
+.bg-2{
+	background: url("../img/banner/banner-b.png") no-repeat center;
+	background-size: cover;
+}
+.bg-3{
+	background: url("../img/banner/banner-c.png") no-repeat center;
+	background-size: cover;
+}
+.bg-4{
+	background: url("../img/banner/banner-d.webp") no-repeat center;
+	background-size: cover;
+}
+.bg-5{
+	background: url("../img/banner/banner-e.png") no-repeat center;
+	background-size: cover;
+}
+.bg-6{
+	background: url("../img/banner/banner-y.png") no-repeat center;
+	background-size: cover;
+}
+.background-shadow{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-image: linear-gradient(to top,rgba(0,0,0,0.45), rgba(0,0,0,0));
+	width: 100%;
+	height: 50%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	z-index: 1;
+}
+.service-item-main h4 {
+	/*text-transform: uppercase;*/
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.service-item-main .info-area{
+	position: absolute;
+	z-index: 2;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+}
+.service-item-main .text-area
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+	max-width: 70%;
+	vertical-align: middle;
+}
+.service-item-main .logo-size{
+	width: 60px;
+	height: 60px;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.service-item-main .logo-size:hover{
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	filter: brightness(80%);
+}
+.service-item-main .name-text
+{
+	font-size: 18px;
+	line-height: 16px;
+	font-family: "Microsoft YaHei UI", serif;
+	font-weight: bold;
+	color: #ffffff;
+}
+.service-item-main .desc-content
+{
+	font-size: 10px;
+	line-height: 20px;
+	font-family: "Microsoft YaHei UI", serif;
+	color: #ffffff;
+	opacity: 0.8;
+}
+.service-item .desc-content
+{
+	font-size: 10px;
+	line-height: 20px;
+	font-family: "Microsoft YaHei UI", serif;
+}
+.service-item .logo-size{
+	width: 80px;
+	height: 80px;
+}
+.round{
+	border-radius: 50%;
+}
+.live-status-box{
+	padding: 1px 6px;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	z-index: 2;
+	border: 2px solid;
+	border-radius: 6px;
+	color: #ffffff;
+	opacity: 0.8;
+	line-height: 14px;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.living-anime{
+	animation: wave 1s infinite;
+	-webkit-animation: wave 1s infinite;
+}
+@keyframes wave
+{
+	to {
+		transform: scale(1.2);
+	}
+}
+
+@-webkit-keyframes wave /*Safari and Chrome*/
+{
+	to {
+		transform: scale(1.2);
+	}
+}
+.live-text{
+	font-family: "Microsoft YaHei UI", serif;
+	font-size: 20px;
+	display: inline;
+	vertical-align: middle;
+	color: #ffffff;
+	margin-left: 3px;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.birthday-logo{
+	position: absolute;
+	z-index: 2;
+	left: 21px;
+	top:-5px;
+}
+.version-tag{
+	position: absolute;
+	left: 10px;
+	font-family: "Microsoft YaHei UI", serif;
+	font-size: 12px;
+}
+div.modal-body p {
+	font-family: "Microsoft YaHei UI", serif;
+	font-size: 14px;
 }
