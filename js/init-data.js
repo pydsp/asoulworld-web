@@ -123,6 +123,7 @@ $(window).on('load', function () {
             $("div#nav3").append(a)
         })
     })
+    requestLiveStatus()
     setInterval("requestLiveStatus()",GET_LIVING_STATUS_CYCLE*60000)
 })
 
