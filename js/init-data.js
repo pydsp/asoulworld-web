@@ -6,7 +6,9 @@ const N2_PATH = "img/n2/"
 const N3_PATH = "img/n3/"
 const BILI_SPACE = "https://space.bilibili.com/"
 const LIVE_URL = "https://live.bilibili.com/"
+const GET_LIVING_STATUS_CYCLE=3
 const live_box=[]
+
 
 $(window).on('load', function () {
     let banner = $("div#banner")
@@ -37,8 +39,6 @@ $(window).on('load', function () {
             bg.addClass("bg-"+json["member"])
 
             logo.attr("src", AVATAR_PATH + "avatar-"+json["member"]+".webp")
-            let dot = a.find("#live-dot")
-            let date=new Date()
             let nowTime=(new Date()).format("MM-dd")
             console.log(nowTime)
             if (json["birthday"]!==nowTime) {
@@ -123,7 +123,7 @@ $(window).on('load', function () {
             $("div#nav3").append(a)
         })
     })
-    setInterval("requestLiveStatus()",180000)
+    setInterval("requestLiveStatus()",GET_LIVING_STATUS_CYCLE*60000)
 })
 
 Date.prototype.format = function (fmt) {
