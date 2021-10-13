@@ -15,10 +15,7 @@ $(window).on('load', function() {
 
 });
 
-
-
 (function($){
-
 	/*------------------
   		HEADER
   	--------------------*/
@@ -33,6 +30,12 @@ $(window).on('load', function() {
 		e.preventDefault();
 	});
 
+	$('.responsive').on('click', function(event) {
+		$('.menu-list').slideToggle(400);
+		$('.header-section').toggleClass('bgc');
+		event.preventDefault();
+	});
+
 	$('.menu-list li a').on('click', function(event) {
 		if ($(window).width() < 768) {
 			$('.menu-list').slideUp(400);
@@ -40,25 +43,8 @@ $(window).on('load', function() {
 		}
 	});
 
-
-	/*------------------
-		PROGRESS BAR
-	--------------------*/
-	$('.progress-bar-style').each(function() {
-		var progress = $(this).data("progress");
-		var prog_width = progress + '%';
-		if (progress <= 100) {
-			$(this).append('<div class="bar-inner" style="width:' + prog_width + '"><span>' + prog_width + '</span></div>');
-		}
-		else {
-			$(this).append('<div class="bar-inner" style="width:100%"><span>100%</span></div>');
-		}
-	});
-
 	/*------------------
 		WOW JS
 	--------------------*/
 	new WOW().init();
-
-
 })(jQuery);
