@@ -191,8 +191,8 @@ li, ul {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -13px;
-	margin-left: -13px;
+	margin-top: -25px;
+	margin-left: -25px;
 	border-radius: 60px;
 	border-left-color: #fff;
 	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
