@@ -152,23 +152,23 @@ Date.prototype.format = function (fmt) {
 function requestLiveStatus()
 {
     console.log("clock test")
-    $.getJSON("api/vi/checkLive.php", function (data) {
+    $.getJSON("api/v1/checkLive.php", function (data) {
         $.each(data, function (index, json) {
             let status=parseInt(json["status"])
             switch (status)
             {
                 case 1:
-                    live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"live-1.svg")
+                    live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"living-1.svg")
                     live_box[index].find("img#live-dot").addClass("living-anime")
                     live_box[index].attr("title","该成员正在直播！")
                     break
                 case 2:
-                    live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"live-2.svg")
+                    live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"living-2.svg")
                     live_box[index].find("img#live-dot").removeClass("living-anime")
                     live_box[index].attr("title","该成员今天有直播哦~直播内容为 "+json["type"])
                     break
                 default:
-                    live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"live-0.svg")
+                    live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"living-0.svg")
                     live_box[index].find("img#live-dot").removeClass("living-anime")
                     live_box[index].attr("title","该成员暂时没有直播哦~")
                     break

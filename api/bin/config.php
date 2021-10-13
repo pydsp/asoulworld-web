@@ -5,5 +5,5 @@ global $SQL_PASS;
 //$SQL_USER='root';
 //$SQL_PASS='';
 
-//$SQL_USER='asoulworld';
-//$SQL_PASS='asw123.asoulworld';
+$SQL_USER='asoulworld';
+$SQL_PASS='asw123.asoulworld';
