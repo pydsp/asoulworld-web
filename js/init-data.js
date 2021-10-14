@@ -122,12 +122,11 @@ $(window).on('load', function () {
             }
             $("div#nav3").append(a)
         })
+        //遍历后首次加载
+        requestLiveStatus()
     })
     setInterval("requestLiveStatus()",GET_LIVING_STATUS_CYCLE*60000)
 })
-$(document).ready(function(){
-    requestLiveStatus()
-});
 Date.prototype.format = function (fmt) {
     let o = {
         "M+": this.getMonth() + 1, //月份
