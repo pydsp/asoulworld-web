@@ -19,7 +19,7 @@ $(window).on('load', function() {
 	/*------------------
   		HEADER
   	--------------------*/
-	var navMenu = $('.menu-list')
+	let navMenu = $('.menu-list')
 		navMenu.onePageNav();
 	$(window).on('scroll resize',function(e) {
 		if ($(this).scrollTop() > 70) {
