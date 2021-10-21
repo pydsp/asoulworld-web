@@ -171,7 +171,7 @@ function requestLiveStatus()
                 default:
                     live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"living-0.svg")
                     live_box[index].find("img#live-dot").removeClass("living-anime")
-                    live_box[index].attr("title","该成员暂时没有直播哦~")
+                    live_box[index].attr("title","该成员今天没有直播哦~")
                     break
             }
         })
