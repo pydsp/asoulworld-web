@@ -68,12 +68,5 @@
     "desc": "A-SOUL世界观下的虚拟大学",
     "link": "https://zhijiang.university/#/",
     "type": 1
-  },
-  {
-    "name": "A-SOUL录播及衍生",
-    "icon": "11.ico",
-    "desc": "收录源码率录播和抖音短视频，可以在线倍速播放及下载",
-    "link": "https://nf.asoul-rec.com",
-    "type": 0
   }
 ]
