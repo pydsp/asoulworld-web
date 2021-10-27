@@ -51,6 +51,10 @@ $(window).on('load', function () {
             $("div#banner").append(a)
             live_box.push(a.find("div.live-status-box"))
         })
+
+        //bannerUI初始化后首次请求
+        requestLiveStatus()
+
     })
 
     //website init
@@ -117,14 +121,17 @@ $(window).on('load', function () {
                         return false
                     })
                     break;
+                case 3:
+                    a.find("img.type-logo").attr("src", LOGO_PATH + "vuejs.svg")
+                    break;
                 default:
                     a.find("img.type-logo").remove()
             }
             $("div#nav3").append(a)
         })
-        //遍历后首次加载
-        requestLiveStatus()
     })
+
+    //定时任务
     setInterval("requestLiveStatus()",GET_LIVING_STATUS_CYCLE*60000)
 })
 Date.prototype.format = function (fmt) {

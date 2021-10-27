@@ -19,5 +19,12 @@
     "type": 1,
     "desc": "Asoul默认vscode主题背景，可自定义图片。",
     "link": "https://marketplace.visualstudio.com/items?itemName=TheSecondAkari.background-withsidebar"
+  },
+  {
+    "name": "ASoul UI",
+    "icon": "4.ico",
+    "type": 3,
+    "desc": "一个魂的 Vue 3 组件库",
+    "link": "https://asoul.plus/"
   }
 ]
