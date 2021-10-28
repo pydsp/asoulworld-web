@@ -75,5 +75,12 @@
     "desc": "收录源码率录播和抖音短视频，可以在线倍速播放及下载",
     "link": "https://nf.asoul-rec.com",
     "type": 0
+  },
+  {
+    "name": "A-SOUL 非公式ファンサイト",
+    "icon": "12.png",
+    "desc": " A-SOUL 非官方粉丝专页，为有兴趣了解A-SOUL的日语使用者提供一个便捷的情报源",
+    "link": "https://asoul.jp/",
+    "type": 0
   }
 ]
