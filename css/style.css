@@ -1026,11 +1026,11 @@ div.modal-body p{
 	background-size: cover;
 }
 .bg-2{
-	background: url("../img/banner/banner-b.png") no-repeat center;
+	background: url("../img/banner/banner-b.webp") no-repeat center;
 	background-size: cover;
 }
 .bg-3{
-	background: url("../img/banner/banner-c.png") no-repeat center;
+	background: url("../img/banner/banner-c.webp") no-repeat center;
 	background-size: cover;
 }
 .bg-4{
@@ -1038,11 +1038,11 @@ div.modal-body p{
 	background-size: cover;
 }
 .bg-5{
-	background: url("../img/banner/banner-e.png") no-repeat center;
+	background: url("../img/banner/banner-e.webp") no-repeat center;
 	background-size: cover;
 }
 .bg-6{
-	background: url("../img/banner/banner-y.png") no-repeat center;
+	background: url("../img/banner/banner-y.webp") no-repeat center;
 	background-size: cover;
 }
 .background-shadow{
@@ -1055,6 +1055,27 @@ div.modal-body p{
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	z-index: 1;
+}
+.background-shadow2{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-image: linear-gradient(to top,rgba(0,0,0,0.5), rgba(0,0,0,0));
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: right;
+	z-index: 1;
+	padding: 0 20px;
+	color: #eeeeee;
+	font-family: "Microsoft YaHei UI", serif;
+	font-size: 40px;
+}
+.background-shadow2 a{
+	color: #eeeeee;
+}
+.background-shadow2 a:hover{
+	color: #dddddd;
 }
 .service-item-main h4 {
 	/*text-transform: uppercase;*/
