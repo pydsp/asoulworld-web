@@ -7,12 +7,6 @@ $(window).on('load', function() {
 	--------------------*/
 	$(".loader").fadeOut();
 	$("#preloder").delay(200).fadeOut("slow");
-	/*------------------
-		Isotope Filter
-	--------------------*/
-	let $container = $('.isotope_items');
-	$container.isotope();
-
 });
 
 (function($){

@@ -51,7 +51,7 @@
 <!--====== Header Section End ======-->
 
 
-<!-- ==== Intro Section Start ==== -->
+<!-- ==== Main Section Start ==== -->
 <section class="intro-section fix" id="home">
     <div class="intro-inner">
         <div class="intro-content">
@@ -71,7 +71,7 @@
         </div>
     </div>
 </section>
-<!-- ==== Intro Section End ==== -->
+<!-- ==== Main Section End ==== -->
 
 <main class="main-warp">
     <!--banner导航-->
@@ -113,7 +113,7 @@
                 <h2>网站导航</h2>
             </div>
             <div id="nav1" class="row">
-
+                <!--website item-->
                 <div class="col-md-2 col-sm-3 col-xs-6 wow fadeInUp"
                      data-wow-delay="0.2s">
                     <a href="" target='_blank'>
@@ -142,6 +142,7 @@
                 <h2>平台创作者导航</h2>
             </div>
             <div id="nav2" class="row">
+                <!--creator item-->
                 <div class="col-md-2 col-sm-3 col-xs-6 wow fadeInUp"
                      data-wow-delay="0.2s">
                     <a href="" target='_blank'>
@@ -157,6 +158,7 @@
                         </div>
                     </a>
                 </div>
+
             </div>
         </div>
     </section>
@@ -168,6 +170,7 @@
                 <h2>工具/插件汇总</h2>
             </div>
             <div id="nav3" class="row">
+                <!--tools item-->
                 <div class="col-md-2 col-sm-3 col-xs-6 wow fadeInUp"
                      data-wow-delay="0.2s">
                     <a href="" target='_blank'>
@@ -183,6 +186,7 @@
                         </div>
                     </a>
                 </div>
+
             </div>
         </div>
     </section>
@@ -193,102 +197,18 @@
 <!-- ==== Footer Section Start ==== -->
 <footer class="footer-section fix">
     <div class="container">
-        <p>© 2021 A-SOUL World &nbsp;&nbsp;
+        <p>© 2021 A-SOUL World &nbsp;·&nbsp;
             <a data-toggle="modal" data-target="#contactUs">联系我们</a>&nbsp;·&nbsp;
+            <a data-toggle="modal" data-target="#thanks">鸣谢</a>&nbsp;·&nbsp;
             <a data-toggle="modal" data-target="#explain">其他</a>
         </p>
-
     </div>
 </footer>
 <!-- ==== Footer Section End ==== -->
-<!--infobox1-->
-<div class="modal fade" id="contactUs"
-     tabindex="-1"
-     role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <h4 class="modal-title"
-                    id="myModalLabel">联系我们</h4>
-            </div>
-            <div class="modal-body">
-                <p>本站为非官方的A-SOUL粉丝创作内容的收集、汇总、导航平台，收录内容包括但不限于网站、工具、周报、电台、录播等。本站为纯公益运营且不接受任何捐赠，内容的先后排名仅与收录时间有关，本站收录的标准如下：</p>
-                <p>1. 网站/工具的基本功能可以正常使用。</p>
-                <p>2. 网站/工具不包含宣传粉头、小团体、集资、应援打榜、非理性消费等内容</p>
-                <p>3. 网站/工具不包含违反<a href="https://www.bilibili.com/read/cv9344038" target="_blank">A-SOUL二创规则</a>的行为
-                </p>
-                <p>4. 创作发布内容不包含对五个女孩的恶意内容，包括但不限于下三滥发散、试图挖掘中之人盒信息、恶意辱骂、无底线造谣等</p>
-                <p>5. 平台创作者栏目主要收录一些日常化更新的创作账号（≥3次/月）且账号处于可以更新内容的正常状态（未封禁、注销、弃号等）</p>
-                <p>收录的平台创作者头像、网站logo等图片信息更新可能存在一定的延迟，敬请谅解。如果对网站建设及现有收录内容有建议或者疑问，可在B站私信<a target="_blank" href="https://space.bilibili.com/1288185922">“飘扬的薯片”</a>进行反馈，如果想推荐自己或他人的符合上述标准的创作内容或认为部分内容违反收录条件，也可以通过上述方式联系。</p>
-
-            </div>
-            <div class="modal-footer">
-                <button type="button"
-                        class="btn btn-primary"
-                        data-dismiss="modal">确认
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-<!--infobox2-->
-<div class="modal fade" id="explain" tabindex="-1"
-     role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <h4 class="modal-title" id="explainLabel">其他</h4>
-            </div>
-            <div class="modal-body">
-                <h4>角标释义</h4>
-                <p>横幅：</p>
-                <p>
-                    <img class="type-logo2" src="img/banner/birthday.svg" alt=""/> 该成员最近正在过生日
-                </p>
-                <p>
-                    &nbsp;<img class="type-logo2-small" src="img/banner/living-0.svg" alt=""/>&nbsp; 该成员今天没有直播
-                </p>
-                <p>
-                    &nbsp;<img class="type-logo2-small" src="img/banner/living-1.svg" alt=""/>&nbsp; 该成员现在正在直播
-                </p>
-                <p>
-                    &nbsp;<img class="type-logo2-small" src="img/banner/living-2.svg" alt=""/>&nbsp; 该成员今天有直播，但尚未开始或已经结束
-                </p>
-                <p>网站：</p>
-                <p>
-                    <img class="type-logo2" src="img/logo/fanmade.png" alt=""/>该网站主要作品为同人创作，描述的事件内容、世界观等可能不符合官方设定
-                </p>
-                <p>平台创作者：</p>
-                <p>
-                    <img class="type-logo2" src="img/logo/bilibili.ico" alt=""/> Bilibili平台创作者
-                </p>
-                <p>
-                    <img class="type-logo2" src="img/logo/wyy.ico" alt=""/> 网易云平台创作者
-                </p>
-                <p>插件/工具：</p>
-                <p>
-                    <img class="type-logo2" src="img/logo/vscode.ico" alt=""/> vscode插件
-                </p>
-                <p>
-                <img class="type-logo2" src="img/logo/vuejs.svg" alt=""/> vue.js组件
-                </p>
-            </div>
-            <div class="modal-footer">
-                <p class="version-tag">网站版本 v 1.2.1</p>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">确认
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--====== Javascripts & Jquery ======-->
+<?php require 'html-content/contact.html' ?>
+<?php require 'html-content/infobox-thanks.html' ?>
+<?php require 'html-content/infobox-others.html' ?>
+<!--====== JavaScripts & Jquery ======-->
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/plugin.js"></script>
