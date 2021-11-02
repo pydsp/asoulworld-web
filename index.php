@@ -66,7 +66,7 @@
             <!--                </h2>-->
             <!--            </div>-->
             <div class="background-shadow2">
-                <a href="https://t.bilibili.com/585387481057166386" target="_blank">不知道，只知道今晚8点珈乐生日会~</a>
+                <a href="" target="_blank">HAPPY BIRTHDAY~</a>
             </div>
         </div>
     </div>
