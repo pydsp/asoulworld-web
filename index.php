@@ -66,7 +66,7 @@
             <!--                </h2>-->
             <!--            </div>-->
             <div class="background-shadow2">
-                <a href="https://t.bilibili.com/585387481057166386" target="_blank">11.2珈乐生日会预约>></a>
+                <a href="https://t.bilibili.com/585387481057166386" target="_blank">不知道，只知道今晚8点珈乐生日会~</a>
             </div>
         </div>
     </div>
@@ -84,7 +84,7 @@
                         <div class="banner-background"></div>
                         <div class="background-shadow"></div>
                         <div class="info-area">
-                            <img id='birthday-logo' class="birthday-logo" title="该成员最近正在过生日哦~" src="img/banner/birthday.svg" alt=""/>
+                            <img id='birthday-logo' class="birthday-logo" title="该成员今天过生日哦~" src="img/banner/birthday.svg" alt=""/>
                             <a id='space-link' href="https://space.bilibili.com/672346917" target='_blank'>
                                 <img class="logo-size round" src="img/banner/avatar/avatar-1.webp" alt=""/>
                             </a>
