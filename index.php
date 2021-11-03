@@ -1,37 +1,11 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>A-SOUL 导航站</title>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description"
-          content="Resume CV / vCard Portfolio">
-    <meta name="keywords"
-          content="cv, onepage, creative, html">
-    <!-- Favicon -->
-    <link href="img/website/favicon.png"
-          rel="shortcut icon"/>
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet"
-          href="css/bootstrap.min.css"/>
-    <link rel="stylesheet"
-          href="css/font-awesome.min.css"/>
-    <link rel="stylesheet"
-          href="css/owl.carousel.css"/>
-    <link rel="stylesheet"
-          href="css/magnific-popup.css"/>
-    <link rel="stylesheet"
-          href="css/animate.min.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-</head>
+<?php require "html-content/head.html"?>
 <body>
 <!-- Page Preloder -->
 <div id="preloder">
     <div class="loader"></div>
 </div>
-
 
 <!--====== Header Section Start ======-->
 <header class="header-section">
@@ -55,16 +29,6 @@
 <section class="intro-section fix" id="home">
     <div class="intro-inner">
         <div class="intro-content">
-            <!--            <div style="padding-bottom: 300px">-->
-            <!--                <div class="profile-img">-->
-            <!--                    <a href="https://space.bilibili.com/703007996/" target="_blank">-->
-            <!--                    <img src="img/website/avatar.JPG"-->
-            <!--                         alt="">-->
-            <!--                    </a>-->
-            <!--                </div>-->
-            <!--                <h2><span class="element"></span>-->
-            <!--                </h2>-->
-            <!--            </div>-->
             <div class="background-shadow2">
                 <a href="" target="_blank">A-SOUL TIME~</a>
             </div>
@@ -79,29 +43,7 @@
         <div class="container-fluid pt20 pb10 desktop-limit">
             <div id="banner" class="row">
                 <!--banner item-->
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-item-main">
-                        <div class="banner-background"></div>
-                        <div class="background-shadow"></div>
-                        <div class="info-area">
-                            <img id='birthday-logo' class="birthday-logo" title="该成员今天过生日哦~" src="img/banner/birthday.svg" alt=""/>
-                            <a id='space-link' href="https://space.bilibili.com/672346917" target='_blank'>
-                                <img class="logo-size round" src="img/banner/avatar/avatar-1.webp" alt=""/>
-                            </a>
-                            <div class="text-area">
-                                <p class="name-text">向晚大魔王</p>
-                                <p class="desc-content">关注...也不是不可以啦！</p>
-                            </div>
-                        </div>
-                        <a id='live-link' href="https://live.bilibili.com/22625025" target="_blank">
-                            <div class="live-status-box" title="该成员暂时没有直播哦~">
-                                <img id='live-dot' src="img/banner/living-0.svg" class="" alt="">
-                                <h4 class="live-text">LIVE</h4>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
+                <?php require "html-content/item/banner.html" ?>
             </div>
         </div>
     </section>
@@ -114,23 +56,7 @@
             </div>
             <div id="nav1" class="row">
                 <!--website item-->
-                <div class="col-md-2 col-sm-3 col-xs-6 wow fadeInUp"
-                     data-wow-delay="0.2s">
-                    <a href="" target='_blank'>
-                        <div class="service-item">
-                            <div class="serv-icon">
-                                <img class="logo-size" src="" alt=""/>
-                                <img class="type-logo" src="" alt=""/>
-                                <p class="mt10 name-text">test</p>
-                            </div>
-                            <div class="serv-content">
-                                <p class='desc-content'>
-                                    test</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
+                <?php require "html-content/item/website.html" ?>
             </div>
         </div>
     </section>
@@ -143,22 +69,7 @@
             </div>
             <div id="nav2" class="row">
                 <!--creator item-->
-                <div class="col-md-2 col-sm-3 col-xs-6 wow fadeInUp"
-                     data-wow-delay="0.2s">
-                    <a href="" target='_blank'>
-                        <div class="service-item">
-                            <div class="serv-icon">
-                                <img class="logo-size round" src="" alt=""/>
-                                <img class="type-logo" src="" alt=""/>
-                                <p class="mt10 name-text"></p>
-                            </div>
-                            <div class="serv-content">
-                                <p class='desc-content'></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
+                <?php require "html-content/item/creator.html" ?>
             </div>
         </div>
     </section>
@@ -171,22 +82,7 @@
             </div>
             <div id="nav3" class="row">
                 <!--tools item-->
-                <div class="col-md-2 col-sm-3 col-xs-6 wow fadeInUp"
-                     data-wow-delay="0.2s">
-                    <a href="" target='_blank'>
-                        <div class="service-item">
-                            <div class="serv-icon">
-                                <img class="logo-size" src="" alt=""/>
-                                <img class="type-logo" src="" alt=""/>
-                                <p class="mt10 name-text"></p>
-                            </div>
-                            <div class="serv-content">
-                                <p class='desc-content'></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
+                <?php require "html-content/item/tools.html" ?>
             </div>
         </div>
     </section>

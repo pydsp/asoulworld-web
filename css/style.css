@@ -330,18 +330,6 @@ li, ul {
 	text-align: center;
 }
 
-.intro-inner .intro-content .profile-img {
-	width: 180px;
-	height: 180px;
-	margin: 0 auto;
-	border-radius: 50%;
-	overflow: hidden;
-	border: 10px solid #fff;
-	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.61);
-	        box-shadow: 0 0 20px rgba(0, 0, 0, 0.61);
-	position: relative;
-	z-index: 9;
-}
 
 
 
