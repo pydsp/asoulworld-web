@@ -66,7 +66,7 @@
             <!--                </h2>-->
             <!--            </div>-->
             <div class="background-shadow2">
-                <a href="" target="_blank">HAPPY BIRTHDAY~</a>
+                <a href="" target="_blank">A-SOUL TIME~</a>
             </div>
         </div>
     </div>
@@ -197,17 +197,13 @@
 <!-- ==== Footer Section Start ==== -->
 <footer class="footer-section fix">
     <div class="container">
-        <p>© 2021 A-SOUL World &nbsp;·&nbsp;
-            <a data-toggle="modal" data-target="#contactUs">联系我们</a>&nbsp;·&nbsp;
-            <a data-toggle="modal" data-target="#thanks">鸣谢</a>&nbsp;·&nbsp;
-            <a data-toggle="modal" data-target="#explain">其他</a>
+        <p>© 2021 A-SOUL World &nbsp;&nbsp;
+            <a data-toggle="modal" data-target="#contactUs">联系我们</a>
         </p>
     </div>
 </footer>
 <!-- ==== Footer Section End ==== -->
 <?php require 'html-content/contact.html' ?>
-<?php require 'html-content/infobox-thanks.html' ?>
-<?php require 'html-content/infobox-others.html' ?>
 <!--====== JavaScripts & Jquery ======-->
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
