@@ -27,13 +27,11 @@
 
 <!-- ==== Main Section Start ==== -->
 <section class="intro-section fix" id="home">
-    <div class="intro-inner">
         <div class="intro-content">
             <div class="background-shadow2">
                 <a href="" target="_blank">A-SOUL TIME~</a>
             </div>
         </div>
-    </div>
 </section>
 <!-- ==== Main Section End ==== -->
 
