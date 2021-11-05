@@ -27,6 +27,8 @@ $(window).on('load', function () {
     tools.empty()
 
 
+    $("div.intro-content").css("background-image","url(\"img/website/bg.png\")")
+
 
     //banner init
     $.getJSON("data/banner.json", function (data) {

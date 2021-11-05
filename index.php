@@ -27,8 +27,8 @@
 
 <!-- ==== Main Section Start ==== -->
 <section class="intro-section fix" id="home">
-        <div class="intro-content">
-            <div class="background-shadow2">
+        <div class="intro-content" >
+            <div class="background-shadow2 linear-grad">
                 <a href="" target="_blank">A-SOUL TIME~</a>
             </div>
         </div>
