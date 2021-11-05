@@ -598,84 +598,6 @@ li, ul {
 
 
 /* ====================
-  Review Section
-=======================*/
-.review-item {
-	text-align: center;
-}
-.review-item .clint {
-	width: 120px;
-	height: 120px;
-	margin: 15px auto 20px;
-	border-radius: 50%;
-	overflow: hidden;
-	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-	        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-.review-item p {
-	margin-bottom: 20px;
-	font-style: italic;
-	font-size: 20px;
-}
-.review-item h2 {
-	font-size: 20px;
-	font-family: "Poppins", sans-serif;
-	font-weight: 700;
-	margin-bottom: 5px;
-}
-.review-item h3 {
-	font-size: 14px;
-}
-.owl-nav {
-	text-align: center;
-	margin-top: 40px;
-}
-.owl-nav div {
-	width: 40px;
-	height: 40px;
-	display: inline-table;
-	text-align: center;
-	margin: 0 8px;
-	border-radius: 50%;
-	-webkit-box-shadow: 0 0 30px rgba(35, 35, 35, 0.2);
-	        box-shadow: 0 0 30px rgba(35, 35, 35, 0.2);
-	color: #333;
-	-webkit-transition: all 0.6s;
-	-o-transition: all 0.6s;
-	transition: all 0.6s;
-}
-.owl-nav div i {
-	display: table-cell;
-	vertical-align: middle;
-	font-size: 18px;
-}
-.owl-nav div:hover {
-	background: #333;
-	color: #fff;
-}
-.contact-info {
-	text-align: center;
-}
-.contact-info i {
-	width: 100%;
-	border-radius: 100px;
-	margin-bottom: 20px;
-	font-size: 70px;
-	position: absolute;
-	left: 0;
-	top: -15px;
-	z-index: -1;
-	opacity: 0.1;
-	color: #9c9c9c;
-}
-.contact-info p {
-	font-size: 14px;
-	line-height: 20px;
-}
-
-
-
-/* ====================
   Promotion Section
 =======================*/
 .promotion-section {
@@ -1178,6 +1100,7 @@ div.modal-footer .version-tag{
 div.modal-body p {
 	font-family: "Microsoft YaHei UI", serif;
 	font-size: 14px;
+	margin-bottom: 0;
 }
 div.modal-body .tag-title
 {
@@ -1185,8 +1108,15 @@ div.modal-body .tag-title
 	font-family: "Microsoft YaHei UI", serif;
 	font-size: 20px;
 	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 div.modal-body .bold-title
 {
 	font-weight: bold;
+}
+div.modal-body .text-small{
+	color: #777777;
+	font-size: 12px;
+	line-height: 20px;
 }
