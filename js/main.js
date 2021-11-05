@@ -2,6 +2,7 @@
 
 $(window).on('load', function() {
 	$("section.intro-section").css("height",$(document.body).height())
+	$("div.intro-content").css("background-attachment","fixed")
 	/*------------------
 		Preloder
 	--------------------*/

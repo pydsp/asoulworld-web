@@ -27,7 +27,7 @@ $(window).on('load', function () {
     tools.empty()
 
 
-    $("div.intro-content").css("background-image","url(\"img/website/bg.png\")")
+    //$("div.intro-content").css("background-image","")
 
 
     //banner init
