@@ -1,8 +1,14 @@
 'use strict';
 
 $(window).on('load', function() {
-	$("section.intro-section").css("height",$(document.body).height())
-	$("div.intro-content").css("background-attachment","fixed")
+	//let h = $(document.body).height();
+	//$("section.intro-section").css("height",h)
+
+	let UA=navigator.userAgent
+	if(UA.indexOf("iPhone")!==-1||UA.indexOf("iphone")!==-1)
+	{
+		$("div.intro-content").css("background-attachment","scroll")
+	}
 	/*------------------
 		Preloder
 	--------------------*/
@@ -41,5 +47,5 @@ $(window).on('load', function() {
 	/*------------------
 		WOW JS
 	--------------------*/
-	new WOW().init();
+	//new WOW().init();
 })(jQuery);
