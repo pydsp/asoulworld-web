@@ -68,6 +68,10 @@ $(window).on('load', function () {
             a.find("p.name-text").text(json["name"])
             a.find("p.desc-content").text(json["desc"])
             a.attr("data-wow-delay", index / 10 + "s")
+            if(json["error"]!==1)
+            {
+                a.find("img.status-logo").remove()
+            }
             switch (json["type"]) {
                 case 1:
                     a.find("img.type-logo").attr("src", LOGO_PATH + "fanmade.png")

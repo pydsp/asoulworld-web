@@ -1122,3 +1122,11 @@ div.modal-body .text-small{
 	font-size: 12px;
 	line-height: 20px;
 }
+
+.status-logo{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 10px;
+	bottom: 10px;
+}
