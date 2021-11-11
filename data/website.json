@@ -82,5 +82,12 @@
     "desc": " A-SOUL 非官方粉丝专页，为有兴趣了解A-SOUL的日语使用者提供一个便捷的情报源",
     "link": "https://asoul.jp/",
     "type": 0
+  },
+  {
+    "name": "A手\uD83D\uDC4B",
+    "icon": "default.png",
+    "desc": " A-SOUL数据及二创收集综合网站",
+    "link": "https://asoul.life",
+    "type": 0
   }
 ]
