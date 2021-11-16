@@ -31,7 +31,7 @@ $(window).on('load', function () {
 
 
     //banner init
-    $.getJSON("data/banner.json", function (data) {
+    $.getJSON("config/banner.json", function (data) {
 
         //banner data init
         $.each(data, function (index, json) {
@@ -60,7 +60,7 @@ $(window).on('load', function () {
     })
 
     //website init
-    $.getJSON("data/website.json", function (data) {
+    $.getJSON("config/website.json", function (data) {
         $.each(data, function (index, json) {
             const a = $(webItem);
             a.find("a").attr("href", json["link"])
@@ -84,7 +84,7 @@ $(window).on('load', function () {
     })
 
     //recorder init
-    $.getJSON("data/recorder.json", function (data) {
+    $.getJSON("config/recorder.json", function (data) {
         $.each(data, function (index, json) {
             const a = $(recorderItem);
             a.find("a").attr("href", json["link"])
@@ -107,7 +107,7 @@ $(window).on('load', function () {
     })
 
     //tools init
-    $.getJSON("data/tools.json", function (data) {
+    $.getJSON("config/tools.json", function (data) {
         $.each(data, function (index, json) {
             const a = $(toolsItem);
             a.find("a").attr("href", json["link"])

@@ -1,0 +1,49 @@
+.living-anime{
+    animation: wave 1s infinite;
+    -webkit-animation: wave 1s infinite;
+}
+@keyframes wave
+{
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes wave /*Safari and Chrome*/
+{
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.alert-anime{
+    animation: flash 2s infinite;
+    -webkit-animation: flash 2s infinite;
+}
+
+@keyframes flash
+{
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes flash /*Safari and Chrome*/
+{
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

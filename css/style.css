@@ -1061,23 +1061,6 @@ div.modal-body p{
 	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
-.living-anime{
-	animation: wave 1s infinite;
-	-webkit-animation: wave 1s infinite;
-}
-@keyframes wave
-{
-	to {
-		transform: scale(1.2);
-	}
-}
-
-@-webkit-keyframes wave /*Safari and Chrome*/
-{
-	to {
-		transform: scale(1.2);
-	}
-}
 .live-text{
 	font-family: "Microsoft YaHei UI", serif;
 	font-size: 20px;
