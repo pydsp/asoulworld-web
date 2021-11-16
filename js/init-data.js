@@ -8,6 +8,8 @@ const BILI_SPACE = "https://space.bilibili.com/"
 const LIVE_URL = "https://live.bilibili.com/"
 const GET_LIVING_STATUS_CYCLE=3
 const live_box=[]
+const API_URL="https://www.asoulworld.com/api/"
+const API_CHECK_LIVE=API_URL+"v1/checkLive.php"
 
 
 $(window).on('load', function () {
@@ -166,7 +168,7 @@ Date.prototype.format = function (fmt) {
 function requestLiveStatus()
 {
     console.log("clock test")
-    $.getJSON("api/v1/checkLive.php", function (data) {
+    $.getJSON(API_CHECK_LIVE, function (data) {
         $.each(data, function (index, json) {
             let status=parseInt(json["status"])
             switch (status)
