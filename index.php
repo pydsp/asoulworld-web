@@ -4,7 +4,7 @@
 <body>
 <!-- Page Preloder -->
 <div id="preloder">
-    <div class="loader"></div>
+    <img class="loader loader-rotate" src="img/website/load.png">
 </div>
 
 <!--====== Header Section Start ======-->
