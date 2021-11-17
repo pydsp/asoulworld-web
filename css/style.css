@@ -868,7 +868,6 @@ div.modal-body p{
 	background-position: center;
 	background-size: cover;
 	background-image: url("../img/website/bg.png");
-	background-attachment: fixed;
 	margin-top: 0;
 	margin-bottom: 0;
 }
