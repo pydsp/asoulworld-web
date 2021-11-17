@@ -5,11 +5,11 @@ $(window).on('load', function() {
 	//$("section.intro-section").css("height",h)
 
 	//判定iOS
-	// let UA=navigator.userAgent
-	// if(UA.indexOf("iPhone")!==-1||UA.indexOf("iphone")!==-1)
-	// {
-	// 	$("div.intro-content").css("background-attachment","scroll")
-	// }
+	let UA=navigator.userAgent
+	if(UA.indexOf("iPhone")!==-1||UA.indexOf("iphone")!==-1)
+	{
+		$("div.intro-content").css("background-attachment","scroll")
+	}
 	/*------------------
 		Preloder
 	--------------------*/
