@@ -867,7 +867,7 @@ div.modal-body p{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-image: url("../img/website/bg.png");
+	background-image: url("../img/website/bg3.png");
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -935,7 +935,7 @@ div.modal-body p{
 	padding: 0 20px;
 	color: #eeeeee;
 	font-family: "Microsoft YaHei UI", serif;
-	font-size: 30px;
+	font-size: 25px;
 }
 .linear-grad{
 	background-image: linear-gradient(to top,rgba(0,0,0,0.5), rgba(0,0,0,0));
@@ -967,7 +967,7 @@ div.modal-body p{
 	margin-top: 10px;
 	margin-left: 10px;
 	display: inline-block;
-	max-width: 70%;
+	max-width: 75%;
 	vertical-align: middle;
 }
 .service-item-main .logo-size{
@@ -1039,9 +1039,9 @@ div.modal-body p{
 }
 .birthday-logo{
 	position: absolute;
-	z-index: 2;
 	left: 21px;
-	top:-5px;
+	z-index: 2;
+	top:-10px;
 }
 div.modal-footer .version-tag{
 	position: absolute;
@@ -1079,4 +1079,8 @@ div.modal-body .text-small{
 	height: 20px;
 	right: 10px;
 	bottom: 10px;
+}
+.inline-block{
+	position: relative;
+	display: inline-block;
 }
