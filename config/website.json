@@ -29,6 +29,14 @@
     "error": 0
   },
   {
+    "name": "Asoul Database Photo",
+    "icon": "default.png",
+    "desc": "ASDB图片搜索扩展",
+    "link": "https://photo.asdb.live/",
+    "type": 0,
+    "error": 0
+  },
+  {
     "name": "ASOUL FAN",
     "icon": "3.ico",
     "desc": "给所有的au提供便利，引导新人快速了解A-SOUL",
