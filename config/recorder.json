@@ -75,6 +75,13 @@
     "type": 2,
     "desc": "收录嘉然直播中的翻唱歌曲",
     "link": "https://music.163.com/#/djradio?id=962806408"
+  },
+  {
+    "name": "A-soul Moments",
+    "icon": "12.jpg",
+    "type": 3,
+    "desc": "YouTube海外频道，日常更新录播以及切片",
+    "link": "https://www.youtube.com/c/AsoulMoments/videos"
   }
 ]
 

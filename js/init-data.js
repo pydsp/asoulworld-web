@@ -101,6 +101,9 @@ $(window).on('load', function () {
                 case 2:
                     a.find("img.type-logo").attr("src", LOGO_PATH + "wyy.ico")
                     break;
+                case 3:
+                    a.find("img.type-logo").attr("src", LOGO_PATH + "youtube.ico")
+                    break;
                 default:
                     a.find("img.type-logo").remove()
             }
