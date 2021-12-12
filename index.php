@@ -29,7 +29,7 @@
 <section class="intro-section" id="home">
         <div class="intro-content" >
             <div class="background-shadow2 linear-grad">
-                <a href="" target="_blank">A-SOUL 1周年快乐~</a>
+                <a href="" target="_blank">A-SOUL时代 沸腾期待~</a>
             </div>
         </div>
 </section>
