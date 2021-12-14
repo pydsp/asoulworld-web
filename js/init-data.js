@@ -62,7 +62,7 @@ $(window).on('load', function () {
         })
 
         //bannerUI初始化后首次请求
-        requestLiveStatus([1])
+        requestLiveStatus([0])
 
     })
 
