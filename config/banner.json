@@ -5,7 +5,9 @@
     "intro": "关注...也不是不可以啦！",
     "bili_uid": 672346917,
     "live_uid": 22625025,
-    "birthday": "06-12"
+    "birthday": "06-12",
+    "error": 1,
+    "error_text": "该成员因隔离政策暂时无法直播，详情请见【A-SOUL制作委员会的每周QA 12.14】"
   },
   {
     "member": 2,

@@ -54,10 +54,15 @@ $(window).on('load', function () {
             a.find("#live-link").attr("href", LIVE_URL + json["live_uid"])
             $("div#banner").append(a)
             live_box.push(a.find("div.live-status-box"))
+            if(json["error"]===1)
+            {
+                a.find("img#live-dot").attr("src",BANNER_PATH+"living-3.svg")
+                a.find("div.live-status-box").attr("title",json["error_text"])
+            }
         })
 
         //bannerUI初始化后首次请求
-        requestLiveStatus()
+        requestLiveStatus([1])
 
     })
 
@@ -168,29 +173,36 @@ Date.prototype.format = function (fmt) {
 }
 
 
-function requestLiveStatus()
+function requestLiveStatus(ignore_arr)
 {
     console.log("clock test")
     $.getJSON(API_CHECK_LIVE, function (data) {
         $.each(data, function (index, json) {
-            let status=parseInt(json["status"])
-            switch (status)
+            if (ignore_arr.includes(index))
             {
-                case 1:
-                    live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"living-1.svg")
-                    live_box[index].find("img#live-dot").addClass("living-anime")
-                    live_box[index].attr("title","该成员正在直播！")
-                    break
-                case 2:
-                    live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"living-2.svg")
-                    live_box[index].find("img#live-dot").removeClass("living-anime")
-                    live_box[index].attr("title","该成员今天有直播哦~直播内容为 "+json["type"])
-                    break
-                default:
-                    live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"living-0.svg")
-                    live_box[index].find("img#live-dot").removeClass("living-anime")
-                    live_box[index].attr("title","该成员今天没有直播哦~")
-                    break
+                //jump
+            }
+            else
+            {
+                let status=parseInt(json["status"])
+                switch (status)
+                {
+                    case 1:
+                        live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"living-1.svg")
+                        live_box[index].find("img#live-dot").addClass("living-anime")
+                        live_box[index].attr("title","该成员正在直播！")
+                        break
+                    case 2:
+                        live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"living-2.svg")
+                        live_box[index].find("img#live-dot").removeClass("living-anime")
+                        live_box[index].attr("title","该成员今天有直播哦~直播内容为 "+json["type"])
+                        break
+                    default:
+                        live_box[index].find("img#live-dot").attr("src",BANNER_PATH+"living-0.svg")
+                        live_box[index].find("img#live-dot").removeClass("living-anime")
+                        live_box[index].attr("title","该成员今天没有直播哦~")
+                        break
+                }
             }
         })
     })
