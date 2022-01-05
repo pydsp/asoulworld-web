@@ -91,7 +91,7 @@
 <!-- ==== Footer Section Start ==== -->
 <footer class="footer-section fix">
     <div class="container">
-        <p>© 2021 A-SOUL World &nbsp;&nbsp;
+        <p>© 2022 A-SOUL World &nbsp;&nbsp;
             <a data-toggle="modal" data-target="#contactUs">联系我们</a>
         </p>
     </div>
