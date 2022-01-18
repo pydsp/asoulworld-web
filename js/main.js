@@ -1,8 +1,6 @@
 'use strict';
 
 $(window).on('load', function() {
-	//let h = $(document.body).height();
-	//$("section.intro-section").css("height",h)
 
 	//判定iOS
 	let UA=navigator.userAgent
